@@ -17,7 +17,7 @@ main {
 
 footer {
     width: 100%;
-    background-color: black;
+    background-color: #1039AB;
     /* color: #f4f7f6; */
     text-align: center;
     padding: 0;
@@ -113,42 +113,42 @@ img {
 .divbotones-footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; /* O repeat(3, 1fr) */
-  gap: 60px; /* Opcional: para espacio entre columnas */  
+  gap: 70px; /* Opcional: para espacio entre columnas */  
 }
 
 .column-footer {
   /* background-color: #f0f0f0; */
-  background-color: black;
+  background-color: #1039AB;
   /* color: black; */
   padding: 5px;
   /* border: 1px solid #ccc; */
 }
 
 .footerboton-inicio {
-    background-image: url("./images/social/logoinicio.png");
+    background-image: url("../images/social/House-256.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: black;
-    width: 40px;
-    height: 30px;
+    background-color: #1039AB;
+    width: 30px;
+    height: 28px;
     border: none;
 }
 
 .footerboton-wp {
-    background-image: url("./images/social/logowp.png");
+    background-image: url("../images/social/Messages-256.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: black;
+    background-color: #1039AB;
     width: 30px;
     height: 30px;
     border: none;
 }
 
 .footerboton-direccion {
-    background-image: url("./images/social/logodireccion.png");
+    background-image: url("../images/social/Phone-Book-256.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: black;
+    background-color: #1039AB;
     width: 30px;
     height: 30px;
     border: none;
