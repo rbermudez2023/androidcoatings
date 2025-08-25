@@ -25,7 +25,8 @@ main {
     margin-top: 46px;
     /* margin: 0; */
     /* padding: 0 1rem; */
-    padding: 0;    
+    padding: 0; 
+
 }
 
 footer {
@@ -70,67 +71,78 @@ footer {
    border: none;
 }
 
-.indumarine {
-    width: 100%;
-    height: auto;
+.indumarine300 {
     display: flex;
     justify-content: center; 
     align-items: center;
-    background-color: #1039AB;
+    /* background-color: #1039AB; */
     /* padding: 5px; */
-    padding-top: 10px;
-    padding-bottom: 10px;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
 }
 
-.carboline {
+.indumarine400 {
     display: flex;
     justify-content: center; 
     align-items: center;
     background-color: white;
     /* padding: 5px; */
-    padding-top: 10px;
-    padding-bottom: 10px;
+    /*padding-top: 10px;
+    padding-bottom: 10px; */ 
 }
 
-.denso {
+.indumarine500 {
     display: flex;
     justify-content: center; 
     align-items: center;
     background-color: white;
     /* padding: 5px; */
-    padding-top: 10px;
-    padding-bottom: 10px;
+    /*padding-top: 10px;
+    padding-bottom: 10px;*/
 }
 
-.emsol {
+.indumarine600 {
     display: flex;
     justify-content: center; 
     align-items: center;
     background-color: white;
-    /* padding: 5px; */
+    /* padding: 5px; 
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 10px; */
 }
 
-.zrc {
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    background-color: white;
-    /* padding: 5px; */
-    padding-top: 10px;
-}
 
 img {
       width:100%;
-      max-width: 300px;
+      max-width: 200px;
       height: auto;      
     }
 
-.imagen-zrc {
+.imagen-indumarine300 {
     width:100%;
-    max-width: 150px;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.imagen-indumarine400 {
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.imagen-indumarine500 {
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.imagen-indumarine600 {
+    width:100%;
+    height: 100%;
+    object-fit: cover;
 
 }
 
