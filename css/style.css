@@ -6,6 +6,8 @@ body {
     color: #333;
     margin: 0;
     /* line-height: 1.6; */
+    height: 100%;
+    margin-bottom: 50px;
 }
 
 main {
@@ -13,7 +15,7 @@ main {
     /* margin: 2rem auto; */
     margin: 0;
     /* padding: 0 1rem; */
-    padding: 0;
+    padding: 0;    
 }
 
 footer {
@@ -29,8 +31,17 @@ footer {
     justify-content: center;
     position: fixed;
     bottom: 0;
+    height: 50px;
 }
 
+.div-pantalla-completa {
+  width: 100vw; /* Ocupa el 100% del ancho */
+  height: 100vh; /* Ocupa el 100% de la altura de la ventana */
+  background-color: lightblue; /* Color de fondo para visualizar */
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box; /* Incluye padding y border en el ancho/alto total */
+}
 
 .titulo-marcas {
     background-color: black;
@@ -58,6 +69,8 @@ footer {
 }
 
 .indumarine {
+    width: 100%;
+    height: auto;
     display: flex;
     justify-content: center; 
     align-items: center;
