@@ -71,7 +71,7 @@ footer {
    border: none;
 }
 
-.indumarine300 {
+.carboline193 {
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -81,7 +81,7 @@ footer {
     padding-bottom: 10px; */
 }
 
-.indumarine400 {
+.carboline134 {
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -91,7 +91,7 @@ footer {
     padding-bottom: 10px; */ 
 }
 
-.indumarine500 {
+.carboline302 {
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -101,7 +101,7 @@ footer {
     padding-bottom: 10px;*/
 }
 
-.indumarine600 {
+.otroscarboline {
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -114,32 +114,32 @@ footer {
 
 img {
       width:100%;
-      max-width: 400px; 
+      max-width: 400px;
       height: auto;      
     }
 
-.imagen-indumarine300 {
+.imagen-carboline193 {
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.imagen-carboline134 {
     width:100%;
     height: 100%;
     object-fit: fill;
 
 }
 
-.imagen-indumarine400 {
+.imagen-carboline302 {
     width:100%;
     height: 100%;
     object-fit: cover;
 
 }
 
-.imagen-indumarine500 {
-    width:100%;
-    height: 100%;
-    object-fit: cover;
-
-}
-
-.imagen-indumarine600 {
+.imagen-otroscarboline {
     width:100%;
     height: 100%;
     object-fit: cover;
