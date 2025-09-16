@@ -71,6 +71,24 @@ footer {
    border: none;
 }
 
+.titulo-modelo {
+    background-color: #ff6600;
+    padding: 2px;
+    margin: 0;
+        /* border: 1px solid black; */ 
+}
+
+.titulo-mainpage-modelo {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    font-family: "Segoe UI";
+  }
+
+
 .carboline193 {
     display: flex;
     justify-content: center; 
