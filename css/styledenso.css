@@ -71,6 +71,23 @@ footer {
    border: none;
 }
 
+.titulo-modelo {
+    background-color: #ff6600;
+    padding: 2px;
+    margin: 0;
+        /* border: 1px solid black; */ 
+}
+
+.titulo-mainpage-modelo {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    font-family: "Segoe UI";
+  }
+
 .densos105 {
     display: flex;
     justify-content: center; 
