@@ -16,13 +16,13 @@ header {
   left: 0;         /* Aligns the header to the left edge */
   width: 100%;     /* Ensures the header spans the full width of the viewport */
   z-index: 999;    /* Places the header above other content */  
-  height: 47px;
+  height: 41px; /* APLICA PARA HEADER FIJO */
 }
 
 main {
     /* max-width: 1200px; */
     /* margin: 2rem auto; */
-    margin-top: 46px;
+    margin-top: 42px; /* APLICA PARA HEADER FIJO */
     /* margin: 0; */
     /* padding: 0 1rem; */
     padding: 0; 
