@@ -108,7 +108,7 @@ footer {
     padding-bottom: 10px; */ 
 }
 
-.densoglass {
+.mrp1250 {
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -118,7 +118,7 @@ footer {
     padding-bottom: 10px;*/
 }
 
-.densoprotal {
+.mrp1300 {
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -165,21 +165,28 @@ img {
       height: auto;      
     }
 
-.imagen-densos105 {
+.imagen-mrp1100 {
     width:100%;
     height: 100%;
     object-fit: cover;
 
 }
 
-.imagen-densyltape {
+.imagen-mrp1200 {
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.imagen-mrp1250 {
     width:100%;
     height: 100%;
     object-fit: fill;
 
 }
 
-.imagen-densoglass {
+.imagen-mrp1300 {
     width:100%;
     height: 100%;
     object-fit: cover;
