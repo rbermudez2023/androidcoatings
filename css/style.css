@@ -136,16 +136,22 @@ img {
 
 
 .divbotones-footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr; /* O repeat(3, 1fr) */
-  gap: 70px; /* Opcional: para espacio entre columnas */  
+  display: flex;
+  justify-content: space-between;
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr); */
+  /* grid-template-columns: 1fr 1fr 1fr; /* O repeat(3, 1fr) ORIGINAL */
+  /* gap: 70px; /* Opcional: para espacio entre columnas ORIGINAL*/  
 }
 
 .column-footer {
+  flex: 1;
   /* background-color: #f0f0f0; */
   background-color: #1039AB;
   /* color: black; */
-  padding: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  /* padding: 5px; ORIGINAL */
   /* border: 1px solid #ccc; */
 }
 
@@ -177,4 +183,61 @@ img {
     width: 30px;
     height: 30px;
     border: none;
+}
+
+.footerbotonini {
+    padding-left: 40px;
+    padding-right: 40px;
+    /* display: inline-block; /* Permite aplicar padding y margin */
+    /* background-color: #1039AB; /* Color de fondo */
+    /* color: white; /* Color del texto ORIGINAL */
+    /* padding: 10px 20px; /* Espaciado interior ORIGINAL */
+    /* text-align: left; /* Alineación del texto */
+    /* text-decoration: none; /* Quita el subrayado ORIGINAL */
+    /* border: none; /* Sin borde ORIGINAL */
+    /* border-radius: 5px; /* Bordes redondeados ORIGINAL */
+    /* cursor: pointer; /* Cambia el cursor al pasar por encima */
+    /* font-size: 16px; /* Tamaño de la fuente ORIGINAL */
+    
+}
+
+.footerbotonwp {
+    padding-left: 40px;
+    padding-right: 40px;
+    /* display: inline-block; /* Permite aplicar padding y margin */
+    /* background-color: #1039AB; /* Color de fondo */
+    /* color: white; /* Color del texto ORIGINAL */
+    /* padding: 10px 20px; /* Espaciado interior ORIGINAL */
+    /* text-align: left; /* Alineación del texto */
+    /* text-decoration: none; /* Quita el subrayado ORIGINAL */
+    /* border: none; /* Sin borde ORIGINAL */
+    /* border-radius: 5px; /* Bordes redondeados ORIGINAL */
+    /* cursor: pointer; /* Cambia el cursor al pasar por encima */
+    /* font-size: 16px; /* Tamaño de la fuente ORIGINAL */
+    
+}
+
+.footerbotondir {
+    padding-left: 40px;
+    padding-right: 40px;
+    /* display: inline-block; /* Permite aplicar padding y margin */
+    /* background-color: #1039AB; /* Color de fondo */
+    /* color: white; /* Color del texto ORIGINAL */
+    /* padding: 10px 20px; /* Espaciado interior ORIGINAL */
+    /* text-align: left; /* Alineación del texto */
+    /* text-decoration: none; /* Quita el subrayado ORIGINAL */
+    /* border: none; /* Sin borde ORIGINAL */
+    /* border-radius: 5px; /* Bordes redondeados ORIGINAL */
+    /* cursor: pointer; /* Cambia el cursor al pasar por encima */
+    /* font-size: 16px; /* Tamaño de la fuente ORIGINAL */
+    
+}
+
+.image-boton {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #1039AB;
 }
