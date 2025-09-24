@@ -128,10 +128,17 @@ footer {
     padding-bottom: 10px; */
 }
 
+.imagen-indumarinepdf {
+    max-width: 12px;
+    /* width:100%; */
+    height: 100%;
+    object-fit: fill;
+
+}
+
 
 img {
-      width:100%;
-      max-width: 400px; 
+      max-width: 400px;
       height: auto;      
     }
 
@@ -163,6 +170,11 @@ img {
 
 }
 
+.enlace-pdf {
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+}
 
 .divbotones-footer {
   display: grid;
