@@ -109,6 +109,16 @@ footer {
     padding-bottom: 10px; */ 
 }
 
+.carboline890 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: white;
+    /* padding: 5px; */
+    /*padding-top: 10px;
+    padding-bottom: 10px;*/
+}
+
 .carboline302 {
     display: flex;
     justify-content: center; 
@@ -130,10 +140,12 @@ footer {
 }
 
 
-img {
-      width:100%;
+img { 
+     /* width:100%;
       max-width: 400px;
-      height: auto;      
+      height: auto; */
+      max-width: 400px;
+      height: auto;     
     }
 
 .imagen-carboline193 {
@@ -144,13 +156,21 @@ img {
 }
 
 .imagen-carboline134 {
-    width:100%;
+    /* width:100%; */
+    width:400px;
     height: 100%;
-    object-fit: fill;
+    object-fit: cover;
 
 }
 
 .imagen-carboline302 {
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.imagen-carboline890 {
     width:100%;
     height: 100%;
     object-fit: cover;
@@ -162,6 +182,27 @@ img {
     height: 100%;
     object-fit: cover;
 
+}
+
+.imagen-carbolinepdf {
+    max-width: 12px;
+    /* width:100%; */
+    height: 100%;
+    object-fit: fill;
+
+}
+
+.enlace-producto {
+    text-decoration: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height:0;
+}
+
+.enlace-pdf {
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
 }
 
 
