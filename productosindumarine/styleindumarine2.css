@@ -1,0 +1,228 @@
+/* Estilos Generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: #f0f2f5; */
+    background-color: none;
+    color: #333;
+    margin: 0;
+    /* line-height: 1.6; */
+    height: 100%;
+    margin-bottom: 50px;
+}
+
+header {
+  position: fixed; /* Makes the header fixed relative to the viewport */
+  top: 0;          /* Positions the header at the top of the viewport */
+  left: 0;         /* Aligns the header to the left edge */
+  width: 100%;     /* Ensures the header spans the full width of the viewport */
+  z-index: 999;    /* Places the header above other content */  
+  height: 47px;
+}
+
+main {
+    /* max-width: 1200px; */
+    /* margin: 2rem auto; */
+    margin-top: 45px;
+    /* margin: 0; */
+    /* padding: 0 1rem; */
+    padding: 0; 
+
+}
+
+footer {
+    width: 100%;
+    background-color: #1039AB;
+    /* color: #f4f7f6; */
+    text-align: center;
+    padding: 0;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+}
+
+
+.titulo-marcas {
+    background-color: black;
+    padding: 5px;
+    margin: 0;
+        /* border: 1px solid black; */ 
+}
+
+.titulo-mainpage {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 22.8px;
+
+  }
+
+.titulo-modelo {
+    background-color: #ff6600;
+    padding: 2px;
+    margin: 0;
+        /* border: 1px solid black; */ 
+}
+
+.titulo-mainpage-modelo {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    font-family: "Segoe UI";
+  }
+
+.hr-titulo-mainpage {
+   width: 100%;
+   height: 6px;
+   background-color: #ff6600;
+   padding: 0;
+   margin: 0;
+   border: none;
+}
+
+.indumarine300 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    /* background-color: #1039AB; */
+    /* padding: 5px; */
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+}
+
+.indumarine400 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: white;
+    /* padding: 5px; */
+    /*padding-top: 10px;
+    padding-bottom: 10px; */ 
+}
+
+.indumarine500 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: white;
+    /* padding: 5px; */
+    /*padding-top: 10px;
+    padding-bottom: 10px;*/
+}
+
+.indumarine600 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: white;
+    /* padding: 5px; 
+    padding-top: 10px;
+    padding-bottom: 10px; */
+}
+
+.imagen-indumarinepdf {
+    max-width: 12px;
+    /* width:100%; */
+    height: 100%;
+    object-fit: fill;
+
+}
+
+
+img {
+      max-width: 400px;
+      height: auto;      
+    }
+
+.imagen-indumarine300 {
+    width:100%;
+    height: 100%;
+    object-fit: fill;
+
+}
+
+.imagen-indumarine400 {
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.imagen-indumarine500 {
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.imagen-indumarine600 {
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    /* display: block; */
+}
+
+.enlace-producto {
+    text-decoration: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height:0;
+}
+
+.enlace-pdf {
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+}
+
+.divbotones-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* O repeat(3, 1fr) */
+  gap: 70px; /* Opcional: para espacio entre columnas */  
+}
+
+.column-footer {
+  /* background-color: #f0f0f0; */
+  background-color: #1039AB;
+  /* color: black; */
+  padding: 5px;
+  /* border: 1px solid #ccc; */
+}
+
+.footerboton-inicio {
+    background-image: url("../images/social/House-256.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #1039AB;
+    width: 30px;
+    height: 28px;
+    border: none;
+}
+
+.footerboton-wp {
+    background-image: url("../images/social/Messages-256.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #1039AB;
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+
+.footerboton-direccion {
+    background-image: url("../images/social/Phone-Book-256.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #1039AB;
+    width: 30px;
+    height: 30px;
+    border: none;
+}
