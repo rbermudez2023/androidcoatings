@@ -214,6 +214,27 @@ img {
 
 }
 
+.imagen-densopdf {
+    max-width: 12px;
+    /* width:100%; */
+    height: 100%;
+    object-fit: fill;
+
+}
+
+.enlace-producto {
+    text-decoration: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height:0;
+}
+
+.enlace-pdf {
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+}
+
 
 .divbotones-footer {
   display: grid;
