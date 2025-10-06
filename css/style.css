@@ -121,6 +121,16 @@ footer {
     padding-top: 10px;
 }
 
+.coatingsgroup {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: white;
+    /* padding: 5px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 img {
       width:100%;
       max-width: 300px;
@@ -131,6 +141,39 @@ img {
     width:100%;
     max-width: 150px;
     height: auto;
+
+}
+
+.imagen-coatingsgroup {
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
+.titulo-modelo {
+    background-color: #ff6600;
+    padding: 2px;
+    margin: 0;
+        /* border: 1px solid black; */ 
+}
+
+.titulo-mainpage-modelo {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    font-family: "Segoe UI";
+  }
+
+  .imagen-wp {
+    max-width: 24px;
+    /* width:100%; */
+    height: 100%;
+    object-fit: fill;
 
 }
 
