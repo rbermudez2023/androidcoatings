@@ -191,3 +191,20 @@ img {
     height: 30px;
     border: none;
 }
+
+.imagen-botoninicio {
+    /** background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #1039AB; */
+    width: 30px;
+    height: 28px;
+    border: none;
+
+}
+
+.enlace-botoninicio {
+    text-decoration: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height:0;
+}
