@@ -169,6 +169,16 @@ img {
     font-family: "Segoe UI";
   }
 
+  .titulo-mainpage-modelo2 {
+    margin: 0;
+    padding: 0;
+    color: Black;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: Left;
+    font-family: "Segoe UI";    
+  }
+
   .imagen-wp {
     max-width: 24px;
     /* width:100%; */
